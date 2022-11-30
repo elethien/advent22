@@ -1,6 +1,6 @@
 package com.elethien.practice
 
-class D01 : AdventBase() {
+class D02 : AdventBase() {
     override fun part1(input: List<String>): String {
         return ""
     }
