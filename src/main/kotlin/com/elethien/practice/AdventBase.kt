@@ -16,9 +16,9 @@ abstract class AdventBase {
         println("   [SOLUTION] " + run1(readInput("${whichTest()}-p1")))
         println("\nBegin Part2 ...")
         println(" >>> Part2 training:")
-        println("   [SOLUTION] " + run2(readInput("${whichTest()}-p2-sample")))
+        println("   [SOLUTION] " + run2(readInput("${whichTest()}-p1-sample")))
         println(" >>> Part2 problem:")
-        println("   [SOLUTION] " + run2(readInput("${whichTest()}-p2")))
+        println("   [SOLUTION] " + run2(readInput("${whichTest()}-p1")))
     }
 
     private fun whichTest() = this.javaClass.kotlin.simpleName
