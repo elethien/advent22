@@ -11,7 +11,7 @@ abstract class AdventBase {
         println("=== === =========== === ===")
         println("\nBegin Part1 ...")
         println(" >>> Part1 training:")
-        println("   [SOLUTION] " + run1(readInput("${whichTest()}-p1-sample")))
+        //println("   [SOLUTION] " + run1(readInput("${whichTest()}-p1-sample")))
         println(" >>> Part1 problem:")
         println("   [SOLUTION] " + run1(readInput("${whichTest()}-p1")))
         println("\nBegin Part2 ...")
@@ -52,5 +52,7 @@ abstract class AdventBase {
     open fun part2(input: List<String>): String{
         return "NOT IMPLEMENTED"
     }
+
+
 
 }
